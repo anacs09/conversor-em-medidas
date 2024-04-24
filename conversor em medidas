@@ -1,0 +1,83 @@
+a= float(input( "escolha o numero que quer converte:  "))
+#segundo
+print(''' escolha um dos números, informando a medida que o numero escolhido esta:  
+[1] esta em km
+[2] esta em cm
+[3] esta em metros
+[4] esta em milhas
+[5] esta em polegadas
+[6] esta em pes''')
+b=float(input("\n Sua opcão:  "))
+# terceiro
+print(''' escolha um dos números que indicara para qual medida quer converter
+[1] converter para km
+[2] converter para cm
+[3] conversao para metros 
+[4] converter para milhas
+[5] converter para polegadas
+[6] converter para pes''')
+c= float(input(" Sua opcão:  "))
+
+
+if b == 2 and c ==1:
+    print("a conversão de",a,"cm e igual a", a*1000, "km" )
+elif b== 2 and c == 3:
+    print("a conversão de",a,"cm e igual a", a/100, "metros")
+elif b==2 and c == 4:
+    print("a conversão de",a,"cm e igual a", a/1.60934, "milhas")
+elif b==2 and c==5:
+    print(" a conversao de",a," cm é igual a", a/2.54, "polegadas")
+elif b==2 and c==6:
+    print("a conversao de",a, "cm e iguaal a", a/30.48,"pes")
+elif b== 1 and c== 2:
+    print ("a conversão de",a,"km e igual a", a*100, "cm")
+elif b== 1 and c== 3:
+    print("a conversão de",a,"km e igual a", a/1000, "metros")
+elif b== 1 and c== 4:
+    print("a conversão de",a,"km e igual a", a/1,609344, "milhas")
+elif b==1 and c== 5:
+    print ("a conversão de",a,"km e igual a", a*39370, "polegadas")
+elif b==1 and c== 6:
+    print("a conversão de",a,"km e igual a", a* 3280.8, "pes")
+elif b== 3 and c== 1:
+    print ("a conversão de",a,"metros e igual a", a/10000, "km")
+elif b== 3 and c== 2:
+    print ("a conversão de",a,"metros e igual a", a/0.010000, "cm")
+elif b== 3 and c== 4:
+    print ("a conversão de",a,"metros e igual a", a*0.00062137, "milhas")
+elif b== 3 and c== 5:
+    print ("a conversão de",a,"metros e igual a", a*39.370, "polegadas")
+elif b== 3 and c== 6:
+    print ("a conversão de",a,"metros e igual a", a*3.2808, "pes")
+elif b== 4 and c== 1:
+    print("a conversão de",a,"milhas e igual a", a/0.62137, "km")
+elif b== 4 and c== 2:
+    print ("a conversão de",a,"milhas e igual a", a/0.0000062137, "cm")
+elif b== 4 and c== 3:
+    print ("a conversão de",a,"milhas e igual a", a/0.00062137, "metros")
+elif b==4 and c== 5:
+    print ("a conversão de",a,"milhas e igual a", a*63360, "polegadas")
+elif b==4 and c== 5:
+    print("a conversão de",a,"milhas e igual a", a*5280.0, "pes")
+elif b== 6 and c== 1:
+    print ("a conversão de",a,"pes e igual a", a/3280.8, "km")
+elif b== 6 and  c == 2:
+    print ("a conversão de",a,"pes e igual a", a/0.032808, "cm")
+elif b==6 and c== 3:
+    print("a conversão de",a,"pes e igual a", a/3.2808, "metros")
+elif b== 6 and c== 4:
+    print ("a conversão de",a,"pes e igual a", a/3.2808, "milhas")
+elif b== 6 and c== 5:
+    print ("a conversão de",a,"pes e igual a", a/12.000, "polegadas")
+elif b== 5 and c==1:
+    print("a conversão de",a,"polegadas e igual a", a/39370, "km")
+elif b==5 and c== 2:
+    print ("a conversão de",a,"polegadas e igual a", a/0.39370, "cm")
+elif b== 5 and c== 3:
+    print ("a conversão de",a,"polegadas e igual a", a/39.370, "metros")
+elif b==5 and c== 4:
+    print ("a conversão de",a,"polegadas e igual a", a*0.000015783, "milhas")
+elif b== 5 and c== 6:
+    print ("a conversão de",a,"polegadas e igual a", a*0.083333, "pes")
+else:
+    print ("erro")
